@@ -85,3 +85,7 @@ variable "disk_size" {
   description = "disk size"
 }
 
+variable "folder" {
+  default     = ""
+  description = "the path to the folder to put this virtual machine in, relative to the datacenter that the resource pool is in"
+}
